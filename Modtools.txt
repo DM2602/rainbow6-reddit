@@ -1,0 +1,144 @@
+/* Moderator Tools Redesign*/
+/* Dont forget to add modtools.png and modtools-2x.png */
+
+#moderation_tools .content { padding-left: 0; padding-right: 0; }
+
+#moderation_tools .icon-menu {
+  margin-top: 5px;
+  height: 210px;
+  width: 280px;
+  position: relative;
+}
+
+.mod-toolbox #moderation_tools .icon-menu { height: 240px; }
+
+#moderation_tools .icon-menu li {
+  display: inline;
+}
+
+#moderation_tools .icon-menu a {
+  margin: 0;
+  display: block;
+}
+
+#moderation_tools .icon-menu::after {
+  content: "";  
+  display: block;
+  clear: both;
+}
+
+#moderation_tools .icon-menu a {
+  position: absolute;
+  width: 50%;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  height: 20px;
+  line-height: 20px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+#moderation_tools .icon-menu a::before {
+  background: 0;
+  width: auto;
+  height: auto;
+  display: inline;
+  float: none;
+  margin: 0;
+}
+
+#moderation_tools a::before {
+  color: #08c;
+  padding-right: 280px;
+}
+
+#moderation_tools a::after {
+  content: "";
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 0;
+  top: 3px;
+  background-color: #b5b5b9;
+  background-image: url(%%modtools%%);
+  background-repeat: no-repeat;
+  border-radius: 3px;
+}
+
+@media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
+  #moderation_tools a::after {
+    background-image: url(%%modtools-2x%%);
+    background-size: 238px 14px;
+  }
+}
+
+#moderation_tools .separator { display: none; }
+
+#moderation_tools .reddit-modqueue { left: 0; top: 0; }
+#moderation_tools .reddit-automod { left: 50%; top: 0; }
+#moderation_tools .reddit-modqueue::after { background-color: #ff9500; }
+#moderation_tools .reddit-automod::after { background-color: #007aff; background-position: -14px 0; }
+#moderation_tools .reddit-modqueue::before { content: "Moderation Queue" }
+#moderation_tools .reddit-automod::before { content: "AutoModerator" }
+
+#moderation_tools .reddit-reported { left: 0; top: 20px; }
+#moderation_tools .reddit-mute { left: 50%; top: 20px; }
+#moderation_tools .reddit-reported::after { background-color: #ff2d55; background-position: -28px 0; }
+#moderation_tools .reddit-mute::after { background-color: #34aadc; background-position: -42px 0; }
+#moderation_tools .reddit-mute::before { content: "Mutes" }
+#moderation_tools .reddit-reported::before { content: "Reported Posts" }
+
+#moderation_tools .reddit-spam { left: 0; top: 40px; }
+#moderation_tools .reddit-ban { left: 50%; top: 40px; }
+#moderation_tools .reddit-ban::after { background-color: #34aadc; background-position: -70px 0; }
+#moderation_tools .reddit-spam::after { background-color: #ff2d55; background-position: -56px 0; }
+#moderation_tools .reddit-spam::before { content: "Spam" }
+#moderation_tools .reddit-ban::before { content: "Bans" }
+
+#moderation_tools .reddit-moderationlog { left: 0; top: 70px; }
+#moderation_tools .reddit-unmoderated { left: 50%; top: 70px; }
+#moderation_tools .reddit-moderationlog::after { background-color: #007aff; background-position: -84px 0; }
+#moderation_tools .reddit-unmoderated::after { background-position: -98px 0; }
+#moderation_tools .reddit-moderationlog::before { content: "Moderation Log" }
+#moderation_tools .reddit-unmoderated::before { content: "Unmodded Posts" }
+
+#moderation_tools .moderator-mail { left: 0; top: 90px; }
+#moderation_tools .reddit-edited { left: 50%; top: 90px; }
+#moderation_tools .moderator-mail::after { background-color: #007aff; background-position: -112px 0; }
+#moderation_tools .reddit-edited::after { background-position: -126px 0; }
+#moderation_tools .moderator-mail::before { content: "Inbox" }
+#moderation_tools .reddit-edited::before { content: "Edited Posts" }
+
+#moderation_tools .edit-stylesheet { left: 0; top: 120px; }
+#moderation_tools .reddit-traffic { left: 50%; top: 120px; }
+#moderation_tools .edit-stylesheet::after { background-color: #4cd964; background-position: -140px 0; }
+#moderation_tools .reddit-traffic::after { background-position: -154px 0; }
+#moderation_tools .edit-stylesheet::before { content: "Stylesheet" }
+#moderation_tools .reddit-traffic::before { content: "Traffic" }
+
+#moderation_tools .reddit-flair { left: 0; top: 140px; }
+#moderation_tools .community-rules { left: 50%; top: 140px; }
+#moderation_tools .reddit-flair::after { background-color: #4cd964; background-position: -168px 0; }
+#moderation_tools .community-rules::after { background-position: -182px 0; }
+#moderation_tools .reddit-flair::before { content: "Flair" }
+#moderation_tools .community-rules::before { content: "Rules" }
+
+#moderation_tools .reddit-moderators { left: 0; top: 170px; }
+#moderation_tools .reddit-edit { left: 50%; top: 170px; }
+#moderation_tools .reddit-moderators::after { background-color: #34aadc; background-position: -196px 0; }
+#moderation_tools .reddit-edit::after { background-color: #8e8e93; background-position: -210px 0; }
+#moderation_tools .reddit-moderators::before { content: "Moderators" }
+#moderation_tools .reddit-edit::before { content: "Settings" }
+
+#moderation_tools .reddit-contributors { left: 0; top: 190px; }
+#moderation_tools .reddit-contributors::after { background-color: #34aadc; background-position: -224px 0; }
+#moderation_tools .reddit-contributors::before { content: "Approved Posters" }
+
+#moderation_tools .toolbox-edit { left: 0; top: 220px; }
+#moderation_tools .tb-un-manager { left: 50%; top: 220px; }
+#moderation_tools .toolbox-edit::after, #moderation_tools .tb-un-manager::after { background-color: #edb431; background-position: 14px 0; }
+#moderation_tools .toolbox-edit::before { content: "Toolbox Settings" }
+#moderation_tools .tb-un-manager::before { content: "Toolbox User Notes" }
+
+#moderation_tools img { display: none !important; }

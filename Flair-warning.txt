@@ -1,0 +1,29 @@
+.post-submitter .link:not(.linkflair) .flat-list.buttons .flairselectbtn { position: relative; } 
+.post-submitter .link:not(.linkflair) .flat-list.buttons .flairselectbtn:before {
+background: #008b02; 
+content: „Flair your post!“;
+color: #fff; 
+position: absolute; 
+top: -1.97em; 
+border-radius: 6px; 
+left: -4em;
+height: 1.5em; 
+padding: 0 .5em; 
+line-height: 1.5; 
+text-align: center; 
+font-size: 20px; 
+box-shadow: 1px 1px 1px #000000; }
+
+.post-submitter .link:not(.linkflair) .flat-list.buttons .flairselectbtn:after {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 1em .5em 0;
+    border-color: #008b02 transparent transparent;
+    top: -1em;
+    left: 1em;
+    content: „„;
+    position: absolute;
+}
+.post-submitter .link:not(.linkflair) .flat-list.buttons .flairselectbtn:hover:before { background-color: #06a309; }
+.post-submitter .link:not(.linkflair) .flat-list.buttons .flairselectbtn:hover:after { border-color: #06a309 transparent transparent; }
