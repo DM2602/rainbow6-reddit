@@ -1,7 +1,7 @@
 /* Moderator Tools Redesign*/
 /* Dont forget to add modtools.png and modtools-2x.png */
 
-#moderation_tools .content { padding-left: 0; padding-right: 0; }
+#moderation_tools .content { padding-left: 5px; padding-right: 0; }
 
 #moderation_tools .icon-menu {
   margin-top: 5px;
