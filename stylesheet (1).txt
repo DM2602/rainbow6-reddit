@@ -1,0 +1,335 @@
+.flair {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.flair-Ash {
+    width: 33px;
+    height: 32px;
+    background-position: 0 0;
+}
+
+.flair-AshNew {
+    width: 32px;
+    height: 32px;
+    background-position: -33px 0;
+}
+
+.flair-Bandit {
+    width: 33px;
+    height: 28px;
+    background-position: -65px 0;
+}
+
+.flair-BanditNew {
+    width: 32px;
+    height: 38px;
+    background-position: -98px 0;
+}
+
+.flair-Blackbeard {
+    width: 27px;
+    height: 34px;
+    background-position: -130px 0;
+}
+
+.flair-BlackbeardNew {
+    width: 32px;
+    height: 34px;
+    background-position: -157px 0;
+}
+
+.flair-Blitz {
+    width: 33px;
+    height: 32px;
+    background-position: -189px 0;
+}
+
+.flair-BlitzNew {
+    width: 32px;
+    height: 31px;
+    background-position: 0 -32px;
+}
+
+.flair-Buck {
+    width: 29px;
+    height: 34px;
+    background-position: -32px -32px;
+}
+
+.flair-BuckNew {
+    width: 32px;
+    height: 32px;
+    background-position: -61px -32px;
+}
+
+.flair-Capitao {
+    width: 28px;
+    height: 34px;
+    background-position: -189px -32px;
+}
+
+.flair-CapitaoNew {
+    width: 32px;
+    height: 28px;
+    background-position: 0 -66px;
+}
+
+.flair-Castle {
+    width: 29px;
+    height: 34px;
+    background-position: -32px -66px;
+}
+
+.flair-CastleNew {
+    width: 32px;
+    height: 32px;
+    background-position: -61px -66px;
+}
+
+.flair-Caveira {
+    width: 34px;
+    height: 31px;
+    background-position: -93px -66px;
+}
+
+.flair-CaveiraNew {
+    width: 32px;
+    height: 35px;
+    background-position: -127px -66px;
+}
+
+.flair-Doc {
+    width: 34px;
+    height: 29px;
+    background-position: -159px -66px;
+}
+
+.flair-DocNew {
+    width: 32px;
+    height: 32px;
+    background-position: -193px -66px;
+}
+
+.flair-ESL {
+    width: 31px;
+    height: 28px;
+    background-position: 0 -98px;
+}
+
+.flair-Frost {
+    width: 29px;
+    height: 34px;
+    background-position: -61px -98px;
+}
+
+.flair-FrostNew {
+    width: 32px;
+    height: 32px;
+    background-position: -90px -98px;
+}
+
+.flair-Fuze {
+    width: 30px;
+    height: 33px;
+    background-position: -159px -98px;
+}
+
+.flair-FuzeNew {
+    width: 32px;
+    height: 30px;
+    background-position: -189px -98px;
+}
+
+.flair-Glaz {
+    width: 31px;
+    height: 33px;
+    background-position: 0 -128px;
+}
+
+.flair-GlazNew {
+    width: 32px;
+    height: 32px;
+    background-position: -122px -128px;
+}
+
+.flair-IQNew {
+    width: 32px;
+    height: 26px;
+    background-position: -189px -128px;
+}
+
+.flair-Iq {
+    width: 29px;
+    height: 33px;
+    background-position: -31px -128px;
+}
+
+.flair-Jager {
+    width: 32px;
+    height: 29px;
+    background-position: -60px -154px;
+}
+
+.flair-JagerNew {
+    width: 32px;
+    height: 34px;
+    background-position: -154px -154px;
+}
+
+.flair-Kapkan {
+    width: 29px;
+    height: 34px;
+    background-position: -92px -154px;
+}
+
+.flair-KapkanNew {
+    width: 32px;
+    height: 34px;
+    background-position: -186px -154px;
+}
+
+.flair-MOD {
+    width: 32px;
+    height: 32px;
+    background-position: 0 -188px;
+}
+
+.flair-Montagne {
+    width: 26px;
+    height: 34px;
+    background-position: -32px -188px;
+}
+
+.flair-MontagneNew {
+    width: 32px;
+    height: 33px;
+    background-position: -58px -188px;
+}
+
+.flair-Mute {
+    width: 25px;
+    height: 33px;
+    background-position: -90px -188px;
+}
+
+.flair-MuteNew {
+    width: 32px;
+    height: 28px;
+    background-position: -115px -188px;
+}
+
+.flair-Pulse {
+    width: 27px;
+    height: 31px;
+    background-position: -147px -188px;
+}
+
+.flair-PulseNew {
+    width: 32px;
+    height: 31px;
+    background-position: -174px -188px;
+}
+
+.flair-Rook {
+    width: 32px;
+    height: 32px;
+    background-position: -222px 0;
+}
+
+.flair-RookNew {
+    width: 32px;
+    height: 33px;
+    background-position: -217px -32px;
+}
+
+.flair-Sledge {
+    width: 29px;
+    height: 34px;
+    background-position: -225px -65px;
+}
+
+.flair-SledgeNew {
+    width: 32px;
+    height: 32px;
+    background-position: -221px -99px;
+}
+
+.flair-Smoke {
+    width: 27px;
+    height: 34px;
+    background-position: -221px -131px;
+}
+
+.flair-SmokeNew {
+    width: 32px;
+    height: 32px;
+    background-position: -218px -165px;
+}
+
+.flair-Tachanka {
+    width: 29px;
+    height: 32px;
+    background-position: -206px -197px;
+}
+
+.flair-TachankaNew {
+    width: 32px;
+    height: 32px;
+    background-position: 0 -229px;
+}
+
+.flair-Thatcher {
+    width: 32px;
+    height: 32px;
+    background-position: -32px -229px;
+}
+
+.flair-ThatcherNew {
+    width: 32px;
+    height: 34px;
+    background-position: -64px -229px;
+}
+
+.flair-Thermite {
+    width: 31px;
+    height: 31px;
+    background-position: -96px -229px;
+}
+
+.flair-ThermiteNew {
+    width: 32px;
+    height: 32px;
+    background-position: -127px -229px;
+}
+
+.flair-Twitch {
+    width: 27px;
+    height: 30px;
+    background-position: -235px -197px;
+}
+
+.flair-TwitchNew {
+    width: 32px;
+    height: 34px;
+    background-position: -159px -227px;
+}
+
+.flair-UBI {
+    width: 27px;
+    height: 26px;
+    background-position: -235px -227px;
+}
+
+.flair-Valkyrie {
+    width: 31px;
+    height: 34px;
+    background-position: -191px -229px;
+}
+
+.flair-ValkyrieNew {
+    width: 32px;
+    height: 27px;
+    background-position: -254px 0;
+}
