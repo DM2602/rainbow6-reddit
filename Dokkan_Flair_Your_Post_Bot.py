@@ -4,12 +4,12 @@ from sys import exc_clear
 from urllib import quote
  
 def main():
-    username = "accountName"
-    password = "pw"
-    subreddit_name = "sub"
+    username = "Rainbow6Bot"
+    password = "Fxl6j1MUFbzX"
+    subreddit_name = "r6moderators"
 
     #Bot Settings
-    sleep_time = 120 # time (in seconds) the bot sleeps before performing a new check
+    sleep_time = 60 # time (in seconds) the bot sleeps before performing a new check
     time_until_message = 180 # time (in seconds) a person has to add flair before a initial message is sent
     time_until_remove = 600 # time (in seconds) after a message is sent that a person has to add flair before the post is removed and they have to resubmit it
 
